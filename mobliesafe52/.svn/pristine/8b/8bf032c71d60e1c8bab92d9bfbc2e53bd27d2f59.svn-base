@@ -1,0 +1,21 @@
+package com.itheima52.mobilesafe.activity;
+
+import com.itheima52.mobilesafe.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+/**
+ * 主页面
+ * 
+ * @author Kevin
+ * 
+ */
+public class HomeActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_home);
+	}
+}
